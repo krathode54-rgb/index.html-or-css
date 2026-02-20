@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <div class="navbar">
+    <img src="images/logo.png" class="logo" alt="Netflix Logo">
+    <button class="signin">Sign In</button>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <h1>Unlimited movies, TV shows, and more.</h1>
+    <h2>Watch anywhere. Cancel anytime.</h2>
+    <p>Ready to watch? Enter your email to create or restart your membership.</p>
+    <div class="email-signup">
+      <input type="email" placeholder="Email address">
+      <button>Get Started</button>
+    </div>
+  </div>
+
+  <!-- Features -->
+  <div class="features">
+    <div class="feature">
+      <img src="images/tv.png" alt="TV">
+      <h3>Enjoy on your TV</h3>
+      <p>Watch on Smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+    </div>
+    <div class="feature">
+      <img src="images/mobile.png" alt="Mobile">
+      <h3>Download your shows to watch offline</h3>
+      <p>Save your favorites easily and always have something to watch.</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Questions? Call 000-800-919-1694</p>
+    <p>Netflix Clone Project</p>
+  </footer>
+</body>
+</html>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.signin {
+  background: red;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('images/hero-bg.jpg') center/cover no-repeat;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.email-signup {
+  margin-top: 20px;
+}
+
+.email-signup input {
+  padding: 10px;
+  width: 300px;
+}
+
+.email-signup button {
+  padding: 10px 20px;
+  background: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.feature {
+  width: 40%;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+}
