@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Wedding Invitation</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cursive', sans-serif;
+      background: url('https://images.unsplash.com/photo-1529636453760-3c7d3c6a3f3b') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .card {
+      background: rgba(0,0,0,0.7);
+      padding: 80px;
+      border-radius: 30px;
+      text-align: center;
+      color: #fff;
+      box-shadow: 0 0 50px rgba(255,215,0,0.9);
+      animation: zoomIn 2s ease-in-out;
+      max-width: 900px;
+    }
+    h1 {
+      font-size: 4em;
+      color: gold;
+      text-shadow: 0 0 40px #ffd700;
+      animation: glow 2s infinite alternate;
+    }
+    h2 {
+      font-size: 3em;
+      margin: 20px 0;
+      color: #ffdab9;
+    }
+    p {
+      font-size: 1.5em;
+      margin: 15px 0;
+    }
+    @keyframes glow {
+      from {text-shadow: 0 0 20px gold;}
+      to {text-shadow: 0 0 60px gold;}
+    }
+    @keyframes zoomIn {
+      from {transform: scale(0.5); opacity: 0;}
+      to {transform: scale(1); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>💍 Wedding Invitation 💍</h1>
+    <p>You are cordially invited to celebrate the union of</p>
+    <h2>Rahul & Anjali</h2>
+    <p>On 25th March 2026</p>
+    <p>At Taj Hotel, Agra</p>
+  </div>
+  <audio autoplay loop>
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" type="audio/mpeg">
+  </audio>
+</body>
+</html>
