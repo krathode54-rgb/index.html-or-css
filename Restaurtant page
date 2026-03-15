@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurtant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <header>
+    <h1>Delicious Bites</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+   </header> 
+   <section class="hero">
+    <h2>Welcome to Delicious Bites</h2>
+    <p>Fresh and Delicious Food Everyday</p>
+    <button>Order Now</button>
+   </section>
+   <section class="menu">
+    <h2>Our Menu</h2>
+    <div class="item">
+        <h3>Pizza</h3>
+    <p>Cheesy and delicious pizza </p>
+    </div>
+    <div class="item">
+        <h3>Burger</h3>
+        <p>Fresh grilled burger</p>
+    </div>
+    <div class="item">
+        <h3>Cold Drinks</h3>
+        <p>Refreshing beverages</p>
+    </div>
+   </section>
+   <section class="about">
+    <h2>About Us</h2>
+    <p>We serve the best quaility food wit fresh ingrediant. Visit our restaurtant and enjoy tasty meals with our family.</p>
+   </section>
+   <footer>
+    <p>Contact:9999999999</p>
+    <p>Address:Main Market, India</p>
+   </footer>
+</body>
+</html>
