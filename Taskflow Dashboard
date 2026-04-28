@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFlow Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">TaskFlow</div>
+            <nav><ul><li class="active">Overview</li>
+            <li>My Tasks</li>
+            <li>Calendar</li>
+            <li>settings</li>
+            </ul>
+            </nav>
+        </aside>
+        <main class="container">
+            <header>
+                <h1>Project Overview</h1>
+                <button class="btn-primary">+ New Task</button>
+            </header>
+            <section class="stats-grid">
+                <div class="card">
+                    <h3>Total Tasks</h3>
+                    <p class="stat-number">10</p>
+                </div>
+                <div class="card">
+                    <h3>Completed</h3>
+                    <p class="stat-number">14</p>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
