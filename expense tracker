@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css2.css">
+</head>
+<body>
+  <header>
+    <h1>💰 My Expense Tracker</h1>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Add Expense</h2>
+      <form>
+        <input type="text" placeholder="Expense Name" required>
+        <input type="number" placeholder="Amount (₹)" required>
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <section class="list-section">
+      <h2>Expense List</h2>
+      <ul>
+        <li>🍔 Food - ₹500</li>
+        <li>🚕 Travel - ₹300</li>
+        <li>📚 Books - ₹200</li>
+      </ul>
+    </section>
+
+    <section class="summary-section">
+      <h2>Total: ₹1000</h2>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Expense Tracker</p>
+  </footer>
+</body>
+</html>
